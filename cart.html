@@ -22,16 +22,17 @@
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-   <body>
 
-      <!-- back to top start -->
-      <div class="progress-wrap">
-         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+<body>
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-         </svg>
-      </div>
-      <!-- back to top end -->
-      
+        </svg>
+    </div>
+    <!-- back to top end -->
+
     <!-- header-start -->
     <header class="header d-dark-bg">
         <div class="header-mid">
@@ -387,59 +388,59 @@
             </div>
         </div>
     </header>
-     <!-- header-end -->
+    <!-- header-end -->
 
     <!-- offcanvas area start -->
     <div class="offcanvas__area">
         <div class="offcanvas__wrapper">
-        <div class="offcanvas__close">
-            <button class="offcanvas__close-btn" id="offcanvas__close-btn">
-                <i class="fal fa-times"></i>
-            </button>
-        </div>
-        <div class="offcanvas__content">
-            <div class="offcanvas__logo mb-40">
-                <a href="index.html">
-                <img src="assets/img/logo/logo-white.png" alt="logo">
-                </a>
+            <div class="offcanvas__close">
+                <button class="offcanvas__close-btn" id="offcanvas__close-btn">
+                    <i class="fal fa-times"></i>
+                </button>
             </div>
-            <div class="offcanvas__search mb-25">
-                <form action="#">
-                    <input type="text" placeholder="What are you searching for?">
-                    <button type="submit" ><i class="far fa-search"></i></button>
-                </form>
-            </div>
-            <div class="mobile-menu fix"></div>
-            <div class="offcanvas__action">
+            <div class="offcanvas__content">
+                <div class="offcanvas__logo mb-40">
+                    <a href="index.html">
+                        <img src="assets/img/logo/logo-white.png" alt="logo">
+                    </a>
+                </div>
+                <div class="offcanvas__search mb-25">
+                    <form action="#">
+                        <input type="text" placeholder="What are you searching for?">
+                        <button type="submit"><i class="far fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="mobile-menu fix"></div>
+                <div class="offcanvas__action">
 
+                </div>
             </div>
-        </div>
         </div>
     </div>
-    <!-- offcanvas area end -->      
+    <!-- offcanvas area end -->
     <div class="body-overlay"></div>
     <!-- offcanvas area end -->
 
     <main>
         <!-- page-banner-area-start -->
-        <div class="page-banner-area page-banner-height-2" data-background="assets/img/banner/page-banner-4.jpg">
+        <div class="page-banner-area page-banner-height-2" style="background-image:url(image/back_cart.jpg);">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="page-banner-content text-center">
-                            <h4 class="breadcrumb-title">Your Cart</h4>
+                            <h4 class="breadcrumb-title">Корзина</h4>
                             <div class="breadcrumb-two">
                                 <nav>
-                                   <nav class="breadcrumb-trail breadcrumbs">
-                                      <ul class="breadcrumb-menu">
-                                         <li class="breadcrumb-trail">
-                                            <a href="index.html"><span>Home</span></a>
-                                         </li>
-                                         <li class="trail-item">
-                                            <span>Cart</span>
-                                         </li>
-                                      </ul>
-                                   </nav> 
+                                    <nav class="breadcrumb-trail breadcrumbs">
+                                        <ul class="breadcrumb-menu">
+                                            <li class="breadcrumb-trail">
+                                                <a href="index.html"><span>Главная</span></a>
+                                            </li>
+                                            <li class="trail-item">
+                                                <span>Корзина</span>
+                                            </li>
+                                        </ul>
+                                    </nav>
                                 </nav>
                             </div>
                         </div>
@@ -452,77 +453,87 @@
         <!-- cart-area-start -->
         <section class="cart-area pt-120 pb-120">
             <div class="container">
-               <div class="row">
-                  <div class="col-12">
+                <div class="row">
+                    <div class="col-12">
                         <form action="#">
-                           <div class="table-content table-responsive">
-                              <table class="table">
+                            <div class="table-content table-responsive">
+                                <table class="table">
                                     <thead>
-                                       <tr>
-                                          <th class="product-thumbnail">Images</th>
-                                          <th class="cart-product-name">Product</th>
-                                          <th class="product-price">Unit Price</th>
-                                          <th class="product-quantity">Quantity</th>
-                                          <th class="product-subtotal">Total</th>
-                                          <th class="product-remove">Remove</th>
-                                       </tr>
+                                        <tr>
+                                            <th class="product-thumbnail">Картинка</th>
+                                            <th class="cart-product-name">Картинка</th>
+                                            <th class="product-price">Цена</th>
+                                            <th class="product-quantity">Количество</th>
+                                            <th class="product-subtotal">Итого</th>
+                                            <th class="product-remove">Удалить</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                       <tr>
-                                          <td class="product-thumbnail"><a href="shop-details.html"><img src="assets/img/cart/shop-p-10.jpg" alt=""></a></td>
-                                          <td class="product-name"><a href="shop-details.html">Jacket light</a></td>
-                                          <td class="product-price"><span class="amount">$130.00</span></td>
-                                          <td class="product-quantity">
-                                                <div class="cart-plus-minus"><input type="text" value="1"><div class="dec qtybutton">-</div><div class="inc qtybutton">+</div></div>
-                                          </td>
-                                          <td class="product-subtotal"><span class="amount">$130.00</span></td>
-                                          <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                       </tr>
-                                       <tr>
-                                          <td class="product-thumbnail"><a href="shop-details.html"><img src="assets/img/cart/shop-p-11.jpg" alt=""></a></td>
-                                          <td class="product-name"><a href="shop-details.html">Jacket Pink</a></td>
-                                          <td class="product-price"><span class="amount">$120.50</span></td>
-                                          <td class="product-quantity">
-                                                <div class="cart-plus-minus"><input type="text" value="1"><div class="dec qtybutton">-</div><div class="inc qtybutton">+</div></div>
-                                          </td>
-                                          <td class="product-subtotal"><span class="amount">$120.50</span></td>
-                                          <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                       </tr>
+                                        <tr>
+                                            <td class="product-thumbnail"><a href="shop-details.html"><img
+                                                        src="assets/img/cart/shop-p-10.jpg" alt=""></a></td>
+                                            <td class="product-name"><a href="shop-details.html">Jacket light</a></td>
+                                            <td class="product-price"><span class="amount">$130.00</span></td>
+                                            <td class="product-quantity">
+                                                <div class="cart-plus-minus"><input type="text" value="1">
+                                                    <div class="dec qtybutton">-</div>
+                                                    <div class="inc qtybutton">+</div>
+                                                </div>
+                                            </td>
+                                            <td class="product-subtotal"><span class="amount">$130.00</span></td>
+                                            <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="product-thumbnail"><a href="shop-details.html"><img
+                                                        src="assets/img/cart/shop-p-11.jpg" alt=""></a></td>
+                                            <td class="product-name"><a href="shop-details.html">Jacket Pink</a></td>
+                                            <td class="product-price"><span class="amount">$120.50</span></td>
+                                            <td class="product-quantity">
+                                                <div class="cart-plus-minus"><input type="text" value="1">
+                                                    <div class="dec qtybutton">-</div>
+                                                    <div class="inc qtybutton">+</div>
+                                                </div>
+                                            </td>
+                                            <td class="product-subtotal"><span class="amount">$120.50</span></td>
+                                            <td class="product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
+                                        </tr>
                                     </tbody>
-                              </table>
-                           </div>
-                           <div class="row">
-                              <div class="col-12">
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
                                     <div class="coupon-all">
-                                       <div class="coupon">
-                                          <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Coupon code" type="text">
-                                          <button class="tp-btn-h1" name="apply_coupon" type="submit">Apply
+                                        <div class="coupon">
+                                            <input id="coupon_code" class="input-text" name="coupon_code" value=""
+                                                placeholder="Coupon code" type="text">
+                                            <button class="tp-btn-h1" name="apply_coupon" type="submit">Apply
                                                 coupon</button>
-                                       </div>
-                                       <div class="coupon2">
-                                          <button class="tp-btn-h1" name="update_cart" type="submit">Update cart</button>
-                                       </div>
+                                        </div>
+                                        <div class="coupon2">
+                                            <button class="tp-btn-h1" name="update_cart" type="submit">Update
+                                                cart</button>
+                                        </div>
                                     </div>
-                              </div>
-                           </div>
-                           <div class="row justify-content-end">
-                              <div class="col-md-5">
+                                </div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-md-5">
                                     <div class="cart-page-total">
-                                       <h2>Cart totals</h2>
-                                       <ul class="mb-20">
-                                          <li>Subtotal <span>$250.00</span></li>
-                                          <li>Total <span>$250.00</span></li>
-                                       </ul>
-                                       <a class="tp-btn-h1" href="checkout.html">Proceed to checkout</a>
+                                        <h2>Cart totals</h2>
+                                        <ul class="mb-20">
+                                            <li>Subtotal <span>$250.00</span></li>
+                                            <li>Total <span>$250.00</span></li>
+                                        </ul>
+                                        <a class="tp-btn-h1" href="checkout.html">Proceed to checkout</a>
                                     </div>
-                              </div>
-                           </div>
+                                </div>
+                            </div>
                         </form>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </section>
-         <!-- cart-area-end -->
+        </section>
+        <!-- cart-area-end -->
 
     </main>
 
@@ -658,25 +669,26 @@
     </footer>
     <!-- footer-end -->
 
-      <!-- JS here -->
-      <script src="assets/js/vendor/jquery.js"></script>
-      <script src="assets/js/vendor/waypoints.js"></script>
-      <script src="assets/js/bootstrap-bundle.js"></script>
-      <script src="assets/js/meanmenu.js"></script>
-      <script src="assets/js/swiper-bundle.js"></script>
-      <script src="assets/js/tweenmax.js"></script>
-      <script src="assets/js/owl-carousel.js"></script>
-      <script src="assets/js/magnific-popup.js"></script>
-      <script src="assets/js/parallax.js"></script>
-      <script src="assets/js/backtotop.js"></script>
-      <script src="assets/js/nice-select.js"></script>
-      <script src="assets/js/countdown.min.js"></script>
-      <script src="assets/js/counterup.js"></script>
-      <script src="assets/js/ui-slider-range.js"></script>
-      <script src="assets/js/wow.js"></script>
-      <script src="assets/js/isotope-pkgd.js"></script>
-      <script src="assets/js/imagesloaded-pkgd.js"></script>
-      <script src="assets/js/ajax-form.js"></script>
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/waypoints.js"></script>
+    <script src="assets/js/bootstrap-bundle.js"></script>
+    <script src="assets/js/meanmenu.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/tweenmax.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/backtotop.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/ui-slider-range.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
